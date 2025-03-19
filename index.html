@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Disney+</title>
-    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <header class="header">
@@ -13,10 +13,10 @@
                 <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
             </h1>
             <ul class="header__links">
-                <li class="header__links_item">
+                <li class="header__links__item">
                     <a href="#" class="button button--secundary">Assine agora</a>
                 </li>
-                <li class="header__links_item">
+                <li class="header__links__item">
                     <a href="#" class="button button--dark">Entrar</a>
                 </li>
             </ul>
@@ -55,7 +55,7 @@
         </div>
     </section>
     <section class="shows">
-        <nav class="show__tabs">
+        <nav class="shows__tabs">
             <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
                 Em breve
             </button>
@@ -170,7 +170,7 @@
     </section>
     <section class="image-text-section image-text-section--image-full-width">
         <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celeular.png" />
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
             <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
         </picture>
         <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
@@ -183,7 +183,7 @@
     <section class="available-devices">
         <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
         <ul class="available-devices__list">
-            <li class="available-devices__list_item">
+            <li class="available-devices__list__item">
                 <img src="./dist/images/dispositivos/computador.png" alt="Computador">
                 <h4 class="title--small">Computador</h4>
                 <ul class="text">
@@ -192,7 +192,7 @@
                     <li>PC Windows</li>
                 </ul>
             </li>
-            <li class="available-devices__list_item">
+            <li class="available-devices__list__item">
                 <img src="./dist/images/dispositivos/tv.png" alt="TV">
                 <h4 class="title--small">TV</h4>
                 <ul class="text">
@@ -205,7 +205,7 @@
                     <li>Samsung</li>
                 </ul>
             </li>
-            <li class="available-devices__list_item">
+            <li class="available-devices__list__item">
                 <img src="./dist/images/dispositivos/videogames.png" alt="Video Game">
                 <h4 class="title--small">Video Game</h4>
                 <ul class="text">
@@ -216,7 +216,7 @@
                     <li>Xbox Series S</li>
                 </ul>
             </li>
-            <li class="available-devices__list_item">
+            <li class="available-devices__list__item">
                 <img src="./dist/images/dispositivos/celular.png" alt="Celulares e Tablets">
                 <h4 class="title--small">Celulares e Tablets</h4>
                 <ul class="text">
@@ -269,7 +269,7 @@
         </ul>
     </section>
     <footer class="footer">
-        <div class="container">
+        <div class=" footer__container">
             <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
             <ul class="footer__links">
                 <li class="footer__links__item">
@@ -312,6 +312,6 @@
             </ul>
         </div>
     </footer>
-    <script src=".dist/js/main.js"></script>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>
